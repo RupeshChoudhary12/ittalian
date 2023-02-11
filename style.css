@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.adze-section{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.adze-section h1{
+    margin-left: 50px;
+    color: rgb(205, 205, 192);
+}
+.nav-links{
+    width: 100%;
+     display:flex ;
+    justify-content: space-between;
+    margin-left: 650px;
+    list-style: none;
+}
+.baket-section{
+     width:100px ;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.hero-section{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 8, 8);
+}
+.herotext-section{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rome-section{
+    height: 100%;
+    width: 25%;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rome-section h1{
+    margin-bottom: 10px;
+    
+}
+
+.rome-section h6{
+    margin-bottom: 20px;
+}
+
+.rome-section p{
+    margin-bottom: 120px;
+
+}
+.rome-section h2{
+    margin-bottom: 120px;
+}
+
+.rome-section .buy-now{
+    background-color: rgb(166, 169, 160);
+    padding: 20px;
+    margin-top: 40px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.two-section{
+    margin-right: 40px;
+}
+.imges-section {
+    
+    height: 100%;
+    width: 100%;
+
+}
+.imges-section img{
+    margin-left: 50px;
+    
+}
+.imges-section .third{
+    height: 550px;
+}
+
+.imges-section .first{
+    height: 250px;
+}
+
+
+.second-section{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 10px solid gray;
+}
+
+
+.secondtext-section{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.bottel-section{
+    padding: 20px;
+    margin-right: 100px;
+}
+.bottel-section h1{
+    font-size: 35px;
+    padding: 10px;
+}
+
+.bottel-section button{
+    background-color: rgb(239, 198, 148);
+    width: 150px;
+    padding: 20px;
+    margin-top: 350px;
+    margin-left: 300px;
+    border-radius: 20px;
+    border: none;
+
+}
+.images-section{
+    background-image: url(./images/3_cleanup.png);
+    color: white;
+    /* display: flex;
+    align-items: center; */
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.discover-section{
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.discover-section h1{
+    font-size: 50px;
+    margin-top: 400px;
+    margin-right: 120px;
+}
+
+.discover-section button{
+    margin-top: 400px;
+    margin-right: 50px;
+    font-size: 70px;
+    color: tomato;
+}
+
+.about-section{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   height: 100%;
+   width: 100%;
+
+   border-top: 10px solid green;
+}
+
+.abouttext{
+ margin-right: 80px;
+}
+
+.abouttext h1{
+    margin-bottom: 150px;
+}
+
+.abouttext h3{
+    margin-bottom: 120px;
+}
+.abouttext p{
+    padding:20px ;
+    background-color: aliceblue;
+}
+
+.about-section img{
+    height: 550px;
+    margin-left: 250px;
+}
+
+.gram-section{
+   height: 100%;
+   width: 100%;
+   border-top: 10px solid green;
+   
+}
+.gramtext{
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gramtext img{
+    height: 250px;
+    width: 200px;
+    
+}
+.gram-section h1{
+    margin-left: 550px;
+    
+}
+
+.follow-btn{
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ button.follow{
+    background-color:rgb(73, 73, 64) ;
+    height: 40px;
+    width: 150px;
+    color: aliceblue;
+}
+
+.parfuem-section{
+    height: 100%;
+    width: 100%;
+    border-top: 10px solid chocolate;
+    
+}
+
+.parfumetext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-section{
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.eau p{
+    
+    padding: 40px;
+    
+}
+
+.eau h2{
+    padding: 50px;
+    color: tomato;
+
+}
+
+.price{
+    width: 250px;
+    
+    margin-bottom: 120px;
+}
+.a{
+    border-radius: 15px;
+    color: white;
+    background-color: salmon;
+    width: 70px;
+    padding: 10px;
+}
+
+.b{
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(207, 74, 100);
+    width: 70px;
+    padding: 10px;
+}
+
+.c{
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(14, 209, 4);
+    width: 70px;
+    padding: 10px;
+}
+
+.add{
+    background-color: rgb(140, 88, 24);
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+
+.wish{
+    background-color: rgb(140, 88, 24);
+    width: 200px;
+    height: 60px;
+    color: white;
+    margin-bottom: 40px;
+    margin: 10px;
+}
+
+.parfumetext img{
+    margin-left: 150px;
+    height: 550px;
+}
+.cart{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.foter-section{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-top: 10px solid greenyellow;
+   
+}
+
+.last-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: white;
+    margin-left: 150px;
+    padding: 40px;
+    
+}
+.fire-section button{
+    background-color: teal;
+    margin-top: 20px;
+}
+.fire-section ul{
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.last-section ul{
+
+    list-style: none;
+}
+.last-section ul h1{
+    
+    margin-bottom: 20px;
+}
+
+.fotertext-section h1{
+    
+    padding: 20px;
+}
